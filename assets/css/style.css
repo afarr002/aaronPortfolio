@@ -49,6 +49,16 @@ footer {
   font-size: 10px;
 }
 
+.margot {
+  display: none;
+  font-size: 0.9rem;
+}
+
+.header h1:hover span {
+  display: inline;
+  transform: scale(1.5, 1.5);
+}
+
 .header nav {
   display: flex;
   font-family: "Architects Daughter", Calibri, "Trebuchet MS", sans-serif;
@@ -80,7 +90,7 @@ footer {
   background-image: url("/Users/aaron/Desktop/class.repo.activities/Week1.5/homework./aaronPortfolio/assets/images/IMG_5418.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 0 0 20px 0;
+  border-radius: 0 20px 20px 0;
   display: flex;
 }
 
@@ -166,7 +176,7 @@ footer {
 }
 
 .horiseon:hover {
-  animation: shake 0.5s;
+  transform: scale(0.9, 0.9);
 }
 
 .horiseon a:hover p {
@@ -217,10 +227,10 @@ footer {
   flex: 1 0 100%;
   padding: 15px;
   color: black;
+  border-radius: 20%;
 }
 
 .portfolioR:hover {
-  animation: shake 0.5s;
   transform: rotate(2deg);
 }
 
@@ -267,7 +277,6 @@ footer {
 }
 
 .portfolioL:hover {
-  animation: shake 0.5s;
   transform: rotate(2deg);
 }
 
@@ -348,29 +357,6 @@ footer {
   position: fixed;
   bottom: 0;
   right: 0;
-}
-
-@keyframes shake {
-  10%,
-  90% {
-    transform: translate3d(-1px, 0, 0);
-  }
-
-  20%,
-  80% {
-    transform: translate3d(2px, 0, 0);
-  }
-
-  30%,
-  50%,
-  70% {
-    transform: translate3d(-4px, 0, 0);
-  }
-
-  40%,
-  60% {
-    transform: translate3d(4px, 0, 0);
-  }
 }
 
 @media screen and (max-width: 768px) {
