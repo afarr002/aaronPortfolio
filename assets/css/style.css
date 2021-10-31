@@ -1,0 +1,513 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #222222;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: #6d6861;
+}
+
+h1 {
+  align-self: flex-start;
+  font-size: 48px;
+  font-family: "Architects Daughter", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bolder;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  text-align: center;
+  text-decoration: underline overline;
+}
+
+a {
+  text-decoration: none;
+}
+
+article {
+  display: flex;
+}
+
+footer {
+  padding: 10px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  font-size: 10px;
+}
+
+.header nav {
+  display: flex;
+  font-family: "Architects Daughter", Calibri, "Trebuchet MS", sans-serif;
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-size: 1.4rem;
+}
+
+.header nav ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.header nav ul li {
+  display: inline-block;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.header nav ul li a {
+  color: #6d6861;
+}
+
+.myPic {
+  height: 1000px;
+  width: 80%;
+  margin-bottom: 15px;
+  background-image: url("/Users/aaron/Desktop/class.repo.activities/Week1.5/homework./aaronPortfolio/assets/images/IMG_5418.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0 0 20px 0;
+  display: flex;
+}
+
+.aboutMe {
+  width: 80%;
+  display: inline-block;
+  border-radius: 0 20px 20px 0;
+  margin-bottom: 15px;
+  margin-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: solid black 1px;
+  box-shadow: 8px 8px 8px #888888;
+}
+
+.aboutMe ul li {
+  color: #6d6861;
+  margin-left: 5%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  list-style-type: disc;
+}
+
+.aboutMe p {
+  margin-left: 2.5%;
+  line-height: 20px;
+  color: #6d6861;
+}
+
+.aboutMe h4 {
+  font-size: 130%;
+  margin-bottom: 5px;
+}
+
+.myWork {
+  width: 80%;
+  display: inline-block;
+  border-radius: 0 20px 20px 0;
+  margin-bottom: 15px;
+  margin-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: solid black 1px;
+  box-shadow: 8px 8px 8px #888888;
+}
+
+.horiseon {
+  max-width: 99%;
+  flex: 1 0 100%;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 5px;
+  border-radius: 15%;
+  box-shadow: 4px 4px 8px #888888;
+}
+
+.horiseon header {
+  font-size: 1.5rem;
+  justify-content: center;
+  flex: 1 0 100%;
+  padding: 15px;
+  color: black;
+}
+
+.horiseon img {
+  flex: 0.8 0 100%;
+  width: 100%;
+  min-width: 400px;
+  border: solid #6d6861 12px;
+  border-radius: 15%;
+  padding: 4px;
+}
+
+.horiseon p {
+  display: none;
+}
+
+.horiseon:hover {
+  animation: shake 0.5s;
+}
+
+.horiseon a:hover p {
+  display: block;
+  flex-wrap: wrap;
+  color: black;
+  font-size: 0.8rem;
+  font-style: italic;
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+
+.divFlex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.portfolioR {
+  max-width: 50%;
+  display: inline;
+  flex: 1 0 100%;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 4px;
+  margin-left: 2px;
+  border-radius: 15%;
+  box-shadow: 4px 4px 8px #888888;
+}
+
+.portfolioR p {
+  padding: 2px;
+  display: none;
+}
+
+.portfolioR img {
+  width: 100%;
+  border-radius: 15%;
+  border: solid #6d6861 8px;
+  padding: 2px;
+}
+
+.portfolioR header {
+  font-size: 1.3rem;
+  justify-content: center;
+  flex: 1 0 100%;
+  padding: 15px;
+  color: black;
+}
+
+.portfolioR:hover {
+  animation: shake 0.5s;
+  transform: rotate(2deg);
+}
+
+.portfolioR a:hover p {
+  display: block;
+  color: black;
+  font-size: 0.8rem;
+  font-style: italic;
+  margin-top: 2px;
+}
+
+.portfolioL {
+  max-width: 49%;
+  display: inline;
+  flex: 1 0 100%;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 4px;
+  margin-right: 2px;
+  border-radius: 15%;
+  box-shadow: 4px 4px 8px #888888;
+}
+
+.portfolioL p {
+  padding: 2px;
+  display: none;
+}
+
+.portfolioL img {
+  width: 100%;
+  border-radius: 15%;
+  border: solid #6d6861 8px;
+  padding: 2px;
+}
+
+.portfolioL header {
+  font-size: 1.3rem;
+  justify-content: center;
+  flex: 1 0 100%;
+  padding: 15px;
+  color: black;
+}
+
+.portfolioL:hover {
+  animation: shake 0.5s;
+  transform: rotate(2deg);
+}
+
+.portfolioL a:hover p {
+  display: block;
+  color: black;
+  font-size: 0.8rem;
+  font-style: italic;
+  margin-top: 2px;
+}
+
+.hiddenPortfolio {
+  display: none;
+}
+
+.portfolioSmallScreenR {
+  display: none;
+}
+
+.portfolioSmallScreenL {
+  display: none;
+}
+
+.contactMe {
+  border-radius: 20px 0 0 0;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  width: 18%;
+  height: 20%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: solid black 1px;
+}
+
+.contactMe h3 {
+  font-size: 150%;
+  padding-bottom: 20px;
+  text-decoration: underline overline;
+}
+
+.contactMe ul li {
+  margin-left: 10%;
+  line-height: 1.2rem;
+  list-style-type: none;
+}
+
+.contactMe li a p {
+  display: none;
+}
+
+.contactMe li a:visited {
+  font-style: italic;
+  color: #847e76;
+}
+
+.contactMe li a:hover p {
+  display: block;
+  font-size: 75%;
+  color: #6d6861;
+  font-style: italic;
+  margin-top: 2px;
+}
+
+.contactMe li a:active {
+  color: black;
+  font-style: italic;
+}
+
+.hiddenContactMe {
+  display: none;
+}
+
+.footer h4 {
+  font-size: 75%;
+}
+
+#contactMe {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  header h1 {
+    align-self: center;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  #contactMe {
+    display: none;
+  }
+  .myPic {
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+  }
+  .aboutMe {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    border-radius: 0px;
+  }
+  .myWork {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    border-radius: 0px;
+  }
+  .hiddenContactMe {
+    display: flex;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 5px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    border: solid black 1px;
+    box-shadow: 8px 8px 8px #888888;
+  }
+  .hiddenContactMe h3 {
+    text-align: center;
+    font-size: 150%;
+    padding-bottom: 20px;
+    text-decoration: underline overline;
+  }
+  .hiddenContactMe ul li {
+    text-align: center;
+    line-height: 1.2rem;
+    list-style-type: none;
+  }
+  .hiddenContactMe li a p {
+    display: none;
+  }
+  .hiddenContactMe li a:visited {
+    font-style: italic;
+    color: #6d6861;
+  }
+  .hiddenContactMe li a:hover p {
+    display: block;
+    font-size: 75%;
+    color: #6d6861;
+    font-style: italic;
+    margin-top: 2px;
+  }
+  .hiddenContactMe li a:active {
+    color: black;
+    font-style: italic;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .myPic {
+    display: none;
+  }
+  .portfolioL {
+    display: none;
+  }
+  .portfolioR {
+    display: none;
+  }
+  .portfolioSmallScreenL {
+    max-width: 49%;
+    display: inline;
+    flex: 1 0 100%;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 4px;
+    margin-right: 2px;
+    border-radius: 15%;
+    box-shadow: 4px 4px 8px #888888;
+    text-decoration: underline;
+  }
+  .portfolioSmallScreenR {
+    max-width: 50%;
+    display: inline;
+    flex: 1 0 100%;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 4px;
+    margin-left: 2px;
+    border-radius: 15%;
+    box-shadow: 4px 4px 8px #888888;
+    text-decoration: underline;
+  }
+  .horiseon {
+    display: none;
+  }
+  .hiddenPortfolio {
+    max-width: 99%;
+    display: inline;
+    flex: 1 0 100%;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 4px;
+    margin-left: 2px;
+    border-radius: 15%;
+    box-shadow: 4px 4px 8px #888888;
+    text-decoration: underline;
+  }
+}
