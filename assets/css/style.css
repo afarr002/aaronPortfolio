@@ -87,7 +87,6 @@ footer {
   height: 1000px;
   width: 80%;
   margin-bottom: 15px;
-  /* background-image: url("/Users/aaron/Desktop/class.repo.activities/Week1.5/homework./aaronPortfolio/assets/images/IMG_5418.jpg"); */
   background-image: url("../images/IMG_5418.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -451,34 +450,6 @@ footer {
   }
   .portfolioR {
     display: none;
-  }
-  .portfolioSmallScreenL {
-    max-width: 49%;
-    display: inline;
-    flex: 1 0 100%;
-    padding: 10px;
-    text-align: center;
-    border-style: solid;
-    border-width: 1px;
-    margin-bottom: 4px;
-    margin-right: 2px;
-    border-radius: 15%;
-    box-shadow: 4px 4px 8px #888888;
-    text-decoration: underline;
-  }
-  .portfolioSmallScreenR {
-    max-width: 50%;
-    display: inline;
-    flex: 1 0 100%;
-    padding: 10px;
-    text-align: center;
-    border-style: solid;
-    border-width: 1px;
-    margin-bottom: 4px;
-    margin-left: 2px;
-    border-radius: 15%;
-    box-shadow: 4px 4px 8px #888888;
-    text-decoration: underline;
   }
   .horiseon {
     display: none;
