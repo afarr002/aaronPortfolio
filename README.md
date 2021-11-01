@@ -1,6 +1,6 @@
 # aaronPortfolio
 
-This is a portfolio to inform the user a little about myself, and also to showcase some of the projects I have wokred on or built.
+This is a portfolio to inform the user a little about myself, and also to showcase some of the projects I have worked on or built.
 
 ## Application Link
 
