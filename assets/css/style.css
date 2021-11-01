@@ -87,7 +87,8 @@ footer {
   height: 1000px;
   width: 80%;
   margin-bottom: 15px;
-  background-image: url("/Users/aaron/Desktop/class.repo.activities/Week1.5/homework./aaronPortfolio/assets/images/IMG_5418.jpg");
+  /* background-image: url("/Users/aaron/Desktop/class.repo.activities/Week1.5/homework./aaronPortfolio/assets/images/IMG_5418.jpg"); */
+  background-image: url("../images/IMG_5418.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 0 20px 20px 0;
