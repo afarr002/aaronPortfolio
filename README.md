@@ -1,6 +1,7 @@
 # aaronPortfolio
 
-This is a portfolio to inform the user a little about myself, and also to showcase some of the projects I have worked on or built.
+I built this portfolio with the intention of having a place that future potential employers and collaborators could visit to learn a little about me and also see some of the projects that I have worked on or built in the past.
+This will serve as a digital business card for me to showcase my unique style of development.
 
 ## Application Link
 
