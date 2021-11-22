@@ -3,6 +3,10 @@
 I built this portfolio with the intention of having a place that future potential employers and collaborators could visit to learn a little about me and also see some of the projects that I have worked on or built in the past.
 This will serve as a digital business card for me to showcase my unique style of development.
 
+## Tech Used
+
+This application was built using only HTML and CSS.
+
 ## Application Link
 
 The link to the deloyed site is - https://afarr002.github.io/aaronPortfolio/
