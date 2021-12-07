@@ -23,10 +23,10 @@ Here is a shot of how the deployed site should load.
 
 ## Features
 
-Displays five of my current favorite projects.
-Link to my resume.
-Link to my email.
-Link to my GitHub.
+Displays five of my current favorite projects.  
+Link to my resume.  
+Link to my email.  
+Link to my GitHub.  
 Link to my LinkedIn.
 
 ## Icebox
