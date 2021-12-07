@@ -332,11 +332,7 @@ footer {
 .contactMe ul li {
   margin-left: 10%;
   line-height: 1.2rem;
-  list-style-type: none;
-}
-
-.contactMe li a p {
-  display: none;
+  list-style-type: square;
 }
 
 .contactMe li a:visited {
@@ -430,9 +426,6 @@ footer {
     text-align: center;
     line-height: 1.2rem;
     list-style-type: none;
-  }
-  .hiddenContactMe li a p {
-    display: none;
   }
   .hiddenContactMe li a:visited {
     font-style: italic;
